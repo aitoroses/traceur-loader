@@ -50,7 +50,7 @@ module.exports = function(source) {
   try {
     delete options.runtime;
     var compiler = new traceur.Compiler(options);
-    result = compiler.compile(content, filename);
+    result = compiler.compile(content, filename, filename); // This is a fix for sourceURL mapping
 
     // Process source map (if available) and return result
     if(options.sourceMaps) {
