@@ -1,7 +1,7 @@
-(Last traceur version)
+(Lastest traceur version)
 
 # traceur-loader 0.6.4
-[Traceur](https://github.com/google/traceur-compiler) 0.0.81 loader for
+[Traceur](https://github.com/google/traceur-compiler) 0.0.87 loader for
 [Webpack](https://webpack.github.io/).
 
 ## Usage
